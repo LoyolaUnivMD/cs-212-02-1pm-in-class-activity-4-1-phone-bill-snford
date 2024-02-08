@@ -1,1 +1,12 @@
-THINK before you code...
+1)  Import java.text.DecimalFormat for formatting the total cost
+2)  Import java.util.Scanner for user input
+3)  Define a class named MobileBillCalculator
+4)  Create a scanner object to read user input
+5)  Ask the user to input their subscription package
+6)  Declare and initialize variables for the base and additional cost per GB based on the chosen package
+7)  Use a boolean variable isValidPackage to track the validity of the chosen package
+8)  Use a switch statement to determine the package type and set the corresponding values
+9)  Check for the green package's special condition related to the coupon.
+10) If the package is valid, prompt the user for the amount of data and calculate the total cost
+11) if the package is green and a coupon is present, apply the discount
+12) Use DecimalFormat to format the total cost to tow decimal places
